@@ -1,0 +1,230 @@
+div, div .col-sm-3, div .col-sm-9, .navbar .navbar-default {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Container */
+
+@media (min-width: 768px) {
+  .container-fluid {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+  }
+  div .col-sm-3, .navbar {
+    max-width: 200px;
+    padding: 0px;
+  }
+}
+
+/* Header */
+
+#Header {
+  background-color: #87c34b;
+  width: 100%;
+  height: 48px;
+}
+
+#hdricon {
+  margin: 0px;
+  padding: 4px 50px 0px 50px;
+}
+
+#hdrname {
+  position: relative;
+  float: right;
+  font-size: 18px;
+  color: #FFF;
+  text-transform: capitalize;
+  margin: 8px 0px;
+}
+
+#Header button {
+  float: right;
+  background-color: #1B53AD;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  margin: -3px 0px 0px 20px;
+  padding: 2px 10px;
+}
+
+#Header button:hover {
+  background-color: #287AFF;
+}
+
+/* NavMenu */
+
+.navbar {
+  border: 0px;
+  border-width: 0px;
+  background-color: #FFF;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.navbar .navbar-nav li {
+  float: none;
+  background-color: #1B53AD;
+  height: 30px;
+  width: 150px;
+  margin: 10px 5px 10px 5px;
+  padding: 0px;
+}
+
+.navbar .navbar-nav li a {
+  width: inherit;
+  height: inherit;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFF;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 5px;
+}
+
+.navbar .navbar-nav li a:hover {
+  background-color: #287AFF;
+  color: #FFF;
+}
+
+.navbar .navbar-nav .active a, .navbar .navbar-nav .active a:hover, .navbar .navbar-nav .active a:focus {
+  background-image: none;
+  background-color: #87c34b;
+  color: #FFF;
+}
+
+/* Content */
+
+h2 {
+  font-size: 40px;
+  color: #1B53AD;
+  margin: 20px 0px 0px 28px;
+  padding: 0px;
+}
+
+.fnbar {
+  height: auto;
+  overflow: auto;
+  min-height: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 5px 0px;
+  font-size: 15px;
+}
+
+.fnbar button {
+  float: right;
+  background-color: #1B53AD;
+  color: #FFF;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 0px 2px 20px;
+  padding: 2px 10px;
+}
+
+.fnbar button:hover {
+  background-color: #287AFF;
+}
+
+.toggleButton button {
+  background-color: #1B53AD;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 0px 0px 5px;
+  padding: 2px 10px;
+  font-size: 15px;
+  color: #FFF;
+}
+
+.toggleButton button:hover {
+  background-color: #287AFF;
+}
+
+.addMedia button {
+  background-color: #1B53AD;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  margin: -3px 0px 0px 20px;
+  padding: 2px 10px;
+}
+
+.addMedia button:hover {
+    background-color: #287AFF;
+}
+
+.submit-container{
+    margin-left: 70px;
+    margin-top: 40px;
+    display: flex;
+}
+
+
+.handleTag {
+  text-align: right;
+  margin: 0px;
+  padding: 0px 0px 10px 0px;
+  font-size: 15px;
+}
+
+.handleTag input[type="text"] {
+   width: 150px;
+ }
+
+.handleTag input[type="text"][name="newTag"] {
+  margin: 2px 0px 2px 9px;
+  width: 150px;
+}
+
+.handleTag input[type="submit"] {
+  background-color: #1B53AD;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  margin: -3px 0px 0px 20px;
+  padding: 2px 10px;
+  width: 80px;
+  color: #FFF;
+}
+
+.handleTag input[type="submit"]:hover {
+  background-color: #287AFF;
+}
+
+
+.addUser {
+  text-align: left;
+  margin: 0px;
+  padding: 0px 0px 10px 0px;
+  font-size: 15px;
+}
+
+.addUser input[type="text"] {
+  width: 250px;
+}
+
+.addUser input[type="submit"] {
+  background-color: #1B53AD;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  margin: -3px 0px 0px 20px;
+  padding: 2px 10px;
+  width: 80px;
+  color: #FFF;
+}
+
+
+.hidden { 
+  display:none; 
+}

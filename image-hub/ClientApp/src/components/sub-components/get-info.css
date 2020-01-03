@@ -1,0 +1,69 @@
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-ms-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+#getinfo {
+  float: left;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#getinfo .float-left {
+  float: left;
+  width: 50%;
+  height: 35vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0px;
+  padding: 0px 10px 10px 10px;
+}
+
+#getinfo .float-right {
+  float: right;
+  width: 50%;
+  margin: 0px;
+  padding: 0px 10px 10px 10px;
+}
+
+#getinfo img {
+  display: block;
+  min-width: 0px;
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+#getinfo h2 {
+  font-size: 12px;
+  color: #1B53AD;
+  margin: 0px 0px 5px 0px;
+}
+
+#getinfo select {
+  margin: 0px 5px 0px 0px;
+  width: 100%;
+  min-height: 25px;
+  border: 1px solid;
+  text-align: justify;
+}
+
+#getinfo option:checked {
+  background-color: #87c34b;
+  color: #FFF;
+}
+
+#getinfo input {
+  margin: 0px 5px 0px 0px;
+  padding: 0px 0px 0px 5px;
+  width: 100%;
+  height: 25px;
+  border: 1px solid;
+}
